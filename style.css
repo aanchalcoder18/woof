@@ -31,19 +31,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #home, #register {
-	height: 100vh;
-    background-image: url(images/bg.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #476A6F;
 }
 
 #home .holder {
 	position: absolute;
 	bottom: 16%;
 	right: 8%;
-	background-color: rgba(207,253,255,.8);
+	background-color: #EAF9F9;
 	border-radius: 50px;
 	padding: 20px;
 	width: 40%;
@@ -54,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
 	position: absolute;
 	bottom: 16%;
 	right: 8%;
-	background-color: rgba(207,253,255,.8);
+	background-color: #EAF9F9;
 	border-radius: 50px;
 	padding: 20px;
 	width: 50%;
@@ -75,14 +70,14 @@ h1, h2, h3, h4, h5, h6 {
 #home h1 {
     font-size: 7em;
 	text-align: center;
-	color: #63C132;
+	color: #9ABD19;
 }
 
 
 #register h1 {
     font-size: 4em;
 	text-align: center;
-	color: #63C132;
+	color: #9ABD19;
 }
 
 .navholder {
@@ -113,12 +108,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .navholder a:hover, .navholder a:focus, .nav a:hover, .nav a:focus {
 	text-decoration: none;
-	color: #9EE37D;
+	color: #a59696;
 }
 
 .nav {
 	display: grid;
-	background-image: linear-gradient(#CFFCFF, #AAEFDF);
+	background-image: linear-gradient(to right top, #05370e, #226119, #478e1f, #74bc1f, #a8eb12);
 	padding: 10px 30px;
 	text-align: center;
 	grid-template-columns: 45% 20% 20% 5%;
@@ -143,7 +138,7 @@ body#browse, body#otherpuppy {
 }
 
 .active {
-	color: #9EE37D !important;
+	color: #008F7A !important;
 }
 
 .title {
@@ -236,7 +231,7 @@ body#browse {
 }
 
 .browse div:hover {
-	background-color: #9EE37D;
+	background-color: #4D8076;
 }
 
 .browse img {
